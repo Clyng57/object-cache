@@ -1,0 +1,34 @@
+{
+  "name": "@neumatter/object-cache",
+  "version": "1.0.0",
+  "description": "Module for creating ObjectCaches that can be garbage collected.",
+  "type": "module",
+  "author": "Cal Young",
+  "repository": {
+    "url": "https://github.com/Clyng57/object-cache"
+  },
+  "keywords": [
+    "slots",
+    "internal slots",
+    "object",
+    "cache",
+    "object cache",
+    "slot map",
+    "nodejs",
+    "string",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "standard": {
+    "ignore": [
+      "/types"
+    ]
+  },
+  "dependencies": {
+    "@neumatter/safe-collections": "^1.0.0"
+  }
+}
